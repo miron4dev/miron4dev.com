@@ -1,0 +1,27 @@
+body {
+  font-family: 'Fira Mono', monospace;
+  color: #008F11;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  color: #008F11;
+}
+
+p strong {
+  font-weight: 500;
+}
+
+a {
+  color: map-get($colors, cyan) !important;
+}
+
+a:hover {
+  color: map-get($colors, green) !important;
+  text-decoration: none;
+}

@@ -1,38 +1,20 @@
-const config = require("./data/siteConfig");
-
 module.exports = {
   siteMetadata: {
-    title: config.siteTitle,
-    description: config.siteDescription,
-    author: config.authorName,
-    ...config
+    title: `Gatsby Default Starter`,
   },
-  pathPrefix: config.pathPrefix,
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: `gatsby-plugin-sass`,
       options: {
-        name: config.siteTitle,
-        short_name: config.siteTitle,
-        start_url: config.pathPrefix,
-        background_color: config.background_color,
-        theme_color: config.theme_color,
-        display: config.display,
-        icon: config.icon,
-      },
+        precision: 8,
+      }
     },
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: config.googleAnalyticsId,
+        trackingId: 'UA-138655376-1',
       },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    }
   ],
 }
