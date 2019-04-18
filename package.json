@@ -1,8 +1,9 @@
 {
-  "name": "dlbn.co",
+  "name": "miron4dev.com",
+  "private": true,
   "description": "Personal website",
-  "version": "0.2.0",
-  "author": "Mateus Dal Bianco <mateus@dalbinaco.com>",
+  "version": "1.0.0",
+  "author": "Evgeny Mironenko <miron4dev@gmail.com>",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
@@ -27,19 +28,17 @@
     "react-typist": "^2.0.4",
     "typed.js": "^2.0.6"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "gatsby build"
+    "postinstall": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.6.1"
   }
 }
