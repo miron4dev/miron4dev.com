@@ -5,40 +5,32 @@
   "version": "1.0.0",
   "author": "Evgeny Mironenko <miron4dev@gmail.com>",
   "dependencies": {
-    "axios": "^0.17.1",
-    "body-parser": "^1.18.2",
-    "bootstrap": "4.0.0-beta",
-    "compression": "^1.7.2",
-    "express": "^4.16.2",
-    "express-force-https": "^1.0.0",
-    "express-recaptcha": "^3.0.1",
-    "gatsby": "^1.9.261",
-    "gatsby-link": "^1.6.15",
-    "gatsby-plugin-google-analytics": "^1.0.7",
-    "gatsby-plugin-i18n": "^0.4.1",
-    "gatsby-plugin-react-helmet": "^2.0.3",
-    "gatsby-plugin-sass": "^1.0.12",
-    "gh-pages": "^1.0.0",
-    "mailgun.js": "^2.0.1",
-    "react-async-script": "^0.9.1",
-    "react-google-recaptcha": "^0.9.9",
-    "react-helmet": "^5.2.0",
-    "react-intl": "^2.4.0",
-    "react-simple-icons": "^1.0.0-beta.5",
-    "react-typist": "^2.0.4",
-    "typed.js": "^2.0.6"
+    "@types/react-typist": "2.0.0",
+    "bootstrap": "4.3.1",
+    "gatsby": "2.3.25",
+    "gatsby-plugin-google-analytics": "2.0.18",
+    "gatsby-plugin-sass": "2.0.11",
+    "gatsby-plugin-tslint": "0.0.2",
+    "gatsby-plugin-typescript": "2.0.12",
+    "node-sass": "4.11.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-helmet": "5.2.0",
+    "react-typist": "2.0.5",
+    "typescript": "3.4.4"
   },
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.6.1"
+    "gh-pages": "2.0.1",
+    "tslint": "5.16.0",
+    "tslint-loader": "3.5.4",
+    "tslint-react": "4.0.0"
   }
 }

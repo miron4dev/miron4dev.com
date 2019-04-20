@@ -1,20 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Gatsby Default Starter`
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-sass`,
-      options: {
-        precision: 8,
-      }
-    },
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-138655376-1',
-      },
-    }
-  ],
-}
+        trackingId: "UA-138655376-1"
+      }
+    },
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-tslint`
+  ]
+};
