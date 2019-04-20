@@ -10,6 +10,7 @@ import ContactData from "../components/ContactData";
 import Typist from "../components/Typist";
 
 import "../assets/styles/main.scss";
+import Navbar from "../components/Navbar";
 import MainLayout from "../layouts";
 
 const messages = ["planning", "designing", "programming", "thinking", "optimizing", "refactoring",
@@ -28,13 +29,7 @@ class IndexPage extends React.Component {
     return (
       <MainLayout>
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
-          <header>
-            <div className="container-fluid py-4 py-md-5">
-              <div className="align-items-center">
-                <h1 className="mb-0" style={{ color: "#008F11" }}>Evgeny Mironenko</h1>
-              </div>
-            </div>
-          </header>
+          <Navbar/>
           <div className="container-fluid" style={{ flex: 1 }}>
             <main>
               <section className="py-3 py-md-4">
