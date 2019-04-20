@@ -8,6 +8,8 @@ import reactLogo from "../assets/img/skills/react.svg";
 import typescriptLogo from "../assets/img/skills/typescript.svg";
 import ContactData from "../components/ContactData";
 import Typist from "../components/Typist";
+
+import "../assets/styles/main.scss";
 import MainLayout from "../layouts";
 
 const messages = ["planning", "designing", "programming", "thinking", "optimizing", "refactoring",
@@ -25,21 +27,34 @@ class IndexPage extends React.Component {
   render() {
     return (
       <MainLayout>
-        <section className="py-3 py-md-4">
-          <div className="d-flex align-items-end typist">
-            <h1><Typist messages={messages}/></h1>
+        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+          <header>
+            <div className="container-fluid py-4 py-md-5">
+              <div className="align-items-center">
+                <h3 className="mb-0" style={{ color: "#008F11" }}>Evgeny Mironenko</h3>
+              </div>
+            </div>
+          </header>
+          <div className="container-fluid" style={{ flex: 1 }}>
+            <main>
+              <section className="py-3 py-md-4">
+                <div className="d-flex align-items-end typist">
+                  <h1><Typist messages={messages}/></h1>
+                </div>
+              </section>
+              <section className="mb-3">
+                <div>
+                  <p className="lead">Software Engineer & Proud Geek</p>
+                  <p>Currently based in Tallinn, Estonia</p>
+                </div>
+              </section>
+              <ContactData/>
+              <div className="separator my-5"/>
+              <h4>Tech I like to work with</h4>
+              <Badges skills={skills}/>
+            </main>
           </div>
-        </section>
-        <section className="mb-3">
-          <div>
-            <p className="lead">Software Engineer & Proud Geek</p>
-            <p>Currently based in Tallinn, Estonia</p>
-          </div>
-        </section>
-        <ContactData/>
-        <div className="separator my-5"/>
-        <h4>Tech I like to work with</h4>
-        <Badges skills={skills}/>
+        </div>
       </MainLayout>
     );
   }

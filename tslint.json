@@ -11,6 +11,8 @@
     "trailing-comma": false,
     "jsx-wrap-multiline": false,
     "jsx-no-multiline-js": false,
+    "jsx-alignment": false,
+    "object-literal-sort-keys": false,
     "member-access": [
       false
     ],

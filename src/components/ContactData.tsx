@@ -12,23 +12,27 @@ class ContactData extends React.Component {
         <div className="contact-data">
           <ul className="row p-0 list-unstyled">
             <li className="col" style={{ flex: 0 }}>
-              <a target="_blank" href="https://github.com/miron4dev">
-                <img src={githubLogo} alt="" height="16"/>
+              <a target="_blank" href="https://github.com/miron4dev"
+                 rel="noreferrer">
+                <img src={githubLogo} alt="Github" height="16"/>
               </a>
             </li>
             <li className="col" style={{ flex: 0 }}>
-              <a target="_blank" href="https://linkedin.com/in/miron4dev">
-                <img src={linkedinLogo} alt="" height="16"/>
+              <a target="_blank" href="https://linkedin.com/in/miron4dev"
+                 rel="noreferrer">
+                <img src={linkedinLogo} alt="LinkedIn" height="16"/>
               </a>
             </li>
             <li className="col" style={{ flex: 0 }}>
-              <a target="_blank" href="https://facebook.com/miron4dev">
-                <img src={facebookLogo} alt="" height="16"/>
+              <a target="_blank" href="https://facebook.com/miron4dev"
+                 rel="noreferrer">
+                <img src={facebookLogo} alt="Facebook" height="16"/>
               </a>
             </li>
             <li className="col" style={{ flex: 0 }}>
-              <a target="_blank" href="https://t.me/miron4dev">
-                <img src={telegramLogo} alt="" height="16"/>
+              <a target="_blank" href="https://t.me/miron4dev"
+                 rel="noreferrer">
+                <img src={telegramLogo} alt="Telegram" height="16"/>
               </a>
             </li>
           </ul>
