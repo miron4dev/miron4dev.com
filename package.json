@@ -4,6 +4,13 @@
   "description": "Personal website",
   "version": "1.0.0",
   "author": "Evgeny Mironenko <miron4dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "postinstall": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
   "dependencies": {
     "@types/react-typist": "2.0.0",
     "bootstrap": "4.3.1",
@@ -19,13 +26,6 @@
     "react-helmet": "5.2.0",
     "react-typist": "2.0.5",
     "typescript": "3.4.4"
-  },
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "postinstall": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "2.0.1",

@@ -1,6 +1,6 @@
 import React from "react";
 import Badges from "../components/Badges";
-import Skill from "../Skill";
+import Skill from "../models/Skill";
 
 import javaLogo from "../assets/img/skills/java.svg";
 import kotlinLogo from "../assets/img/skills/kotlin.svg";
