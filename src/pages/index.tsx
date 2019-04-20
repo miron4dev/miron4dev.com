@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
           <header>
             <div className="container-fluid py-4 py-md-5">
               <div className="align-items-center">
-                <h3 className="mb-0" style={{ color: "#008F11" }}>Evgeny Mironenko</h3>
+                <h1 className="mb-0" style={{ color: "#008F11" }}>Evgeny Mironenko</h1>
               </div>
             </div>
           </header>
@@ -39,7 +39,7 @@ class IndexPage extends React.Component {
             <main>
               <section className="py-3 py-md-4">
                 <div className="d-flex align-items-end typist">
-                  <h1><Typist messages={messages}/></h1>
+                  <h2><Typist messages={messages}/></h2>
                 </div>
               </section>
               <section className="mb-3">
@@ -50,7 +50,7 @@ class IndexPage extends React.Component {
               </section>
               <ContactData/>
               <div className="separator my-5"/>
-              <h4>Tech I like to work with</h4>
+              <h3>Tech I like to work with</h3>
               <Badges skills={skills}/>
             </main>
           </div>

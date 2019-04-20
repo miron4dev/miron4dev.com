@@ -22,6 +22,7 @@
     "gatsby-plugin-tslint": "0.0.2",
     "gatsby-plugin-typescript": "2.0.12",
     "gatsby-plugin-manifest": "2.0.29",
+    "gatsby-plugin-sitemap": "2.0.12",
     "node-sass": "4.11.0",
     "prop-types": "15.7.2",
     "react": "16.8.6",
