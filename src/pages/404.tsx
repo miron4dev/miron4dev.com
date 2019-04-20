@@ -1,7 +1,6 @@
 import React from "react";
 import TreeView from "react-typist";
 
-import "../assets/styles/main.scss";
 import MainLayout from "../layouts";
 
 class NotFoundPage extends React.Component {

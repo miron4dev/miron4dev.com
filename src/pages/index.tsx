@@ -9,7 +9,6 @@ import typescriptLogo from "../assets/img/skills/typescript.svg";
 import ContactData from "../components/ContactData";
 import Typist from "../components/Typist";
 
-import "../assets/styles/main.scss";
 import Navbar from "../components/Navbar";
 import MainLayout from "../layouts";
 
