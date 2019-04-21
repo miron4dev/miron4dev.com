@@ -9,7 +9,7 @@ class Navbar extends React.Component {
         <div className="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <HoveredLink initialText="EM" hoveredText="Evgeny Mironenko"/>
+              <HoveredLink/>
             </li>
           </ul>
         </div>
