@@ -7,6 +7,7 @@ import "../assets/styles/main.scss";
 interface MainLayoutProps {
   title: string;
   metaDescription: string;
+  contextPath: string;
 }
 
 class MainLayout extends React.Component<MainLayoutProps, any> {
@@ -38,8 +39,9 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
             }
           ]}>
           <html lang="en"/>
-        </Helmet>
 
+          <link rel="canonical" href={this.props.contextPath}/>
+        </Helmet>
         {this.props.children}
       </div>
     );

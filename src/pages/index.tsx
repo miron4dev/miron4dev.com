@@ -27,7 +27,8 @@ class IndexPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | Software Engineer"
-        metaDescription="Evgeny Mironenko Senior Software Engineer Java Kotlin Typescript React Developer">
+        metaDescription="Evgeny Mironenko Senior Software Engineer Java Kotlin Typescript React Developer"
+        contextPath="/">
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
           <Navbar/>
           <div className="container-fluid" style={{ flex: 1 }}>
