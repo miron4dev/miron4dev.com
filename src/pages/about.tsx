@@ -36,7 +36,7 @@ class AboutPage extends React.Component {
               </section>
               <div className="separator my-5"/>
 
-              <h3>Skills</h3>
+              <h3 style={{color: "#C5A483"}}>Skills</h3>
               <ul style={{listStyleType: "none"}}>
                 <li>
                   Java, Kotlin, Ruby, REST, SOAP, XML, SQL

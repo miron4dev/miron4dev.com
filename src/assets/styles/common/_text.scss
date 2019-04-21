@@ -1,6 +1,6 @@
 body {
   font-family: 'Fira Mono', monospace;
-  color: #008F11;
+  color: #b6b6b6;
   text-align: center;
 }
 
@@ -9,8 +9,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+h1, h2, h3 {
+  color: #c17326;
+}
+
+h4, h5, h6 {
+  color: #C5A483
+}
+
 p {
-  color: #008F11;
+  color: #b6b6b6;
 }
 
 p strong {
@@ -18,10 +26,10 @@ p strong {
 }
 
 a {
-  color: map-get($colors, cyan) !important;
+  color: #7097bc !important;
 }
 
 a:hover {
-  color: map-get($colors, green) !important;
+  color: #669bf9 !important;
   text-decoration: none;
 }
