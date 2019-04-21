@@ -7,7 +7,7 @@ class NotFoundPage extends React.Component {
   render() {
     return (
       <MainLayout title="Page Not Found" metaDescription="Page Not Found"
-        contextPath="/404">
+                  contextPath="/404">
         <div className="not-found-page">
           <h1 className="align-self-center">
             <TreeView>

@@ -12,7 +12,11 @@ section {
   justify-content: center;
 }
 
-.contact-data{
+.contact-data {
   align-items: center;
   display: inline-flex;
+}
+
+.avatar {
+  border-radius: 50%;
 }

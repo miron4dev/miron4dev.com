@@ -3,12 +3,14 @@ import Navbar from "../components/Navbar";
 import Typist from "../components/Typist";
 import MainLayout from "../layouts";
 
+import avatarImg from "../assets/img/avatar.jpg";
+
 class AboutPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | About"
-        metaDescription="About Evgeny Mironenko Senior Software Engineer Java Kotlin React"
-        contextPath="/about">
+                  metaDescription="About Evgeny Mironenko Senior Software Engineer Java Kotlin React"
+                  contextPath="/about">
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
           <Navbar/>
           <div className="container-fluid" style={{ flex: 1 }}>
@@ -17,7 +19,9 @@ class AboutPage extends React.Component {
                 <div className="d-flex align-items-end typist">
                   <h2><Typist messages={["About me"]}/></h2>
                 </div>
+                <img src={avatarImg} width={128} height={128} alt="Me" className="avatar"/>
               </section>
+
               <section className="mb-3">
                 <div>
                   <p>
@@ -35,10 +39,10 @@ class AboutPage extends React.Component {
                   </p>
                 </div>
               </section>
-              <div className="separator my-5"/>
+              <div className="separator mb-3"/>
 
-              <h3 style={{color: "#C5A483"}}>Skills</h3>
-              <ul style={{listStyleType: "none"}}>
+              <h3 style={{ color: "#C5A483" }}>Skills</h3>
+              <ul style={{ listStyleType: "none" }}>
                 <li>
                   Java, Kotlin, Ruby, REST, SOAP, XML, SQL
                 </li>
