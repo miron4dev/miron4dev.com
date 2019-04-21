@@ -4,12 +4,17 @@ import { Helmet } from "react-helmet";
 
 import "../assets/styles/main.scss";
 
-class MainLayout extends React.Component {
+interface MainLayoutProps {
+  title: string;
+  metaDescription: string;
+}
+
+class MainLayout extends React.Component<MainLayoutProps, any> {
   render() {
     return (
       <div>
         <Helmet
-          title="Evgeny Mironenko | Software Engineer"
+          title={this.props.title}
           meta={[
             {
               charSet: "utf-8"
@@ -24,7 +29,7 @@ class MainLayout extends React.Component {
             },
             {
               name: "description",
-              content: "Evgeny Mironenko Software Engineer Java Kotlin Typescript React Developer"
+              content: this.props.metaDescription
             },
             {
               name: "keywords",

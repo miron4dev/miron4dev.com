@@ -6,8 +6,8 @@ import MainLayout from "../layouts";
 class AboutPage extends React.Component {
   render() {
     return (
-
-      <MainLayout>
+      <MainLayout title="Evgeny Mironenko | About"
+        metaDescription="About Evgeny Mironenko Senior Software Engineer Java Kotlin React">
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
           <Navbar/>
           <div className="container-fluid" style={{ flex: 1 }}>

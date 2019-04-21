@@ -16,8 +16,16 @@ module.exports = {
         background_color: `#070707`,
         theme_color: `#ffffff`,
         display: `standalone`,
-        icon: `static/logo.png`,
-      },
+        icon: `static/logo.png`
+      }
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https:/miron4dev.com",
+        sitemap: "https:/miron4dev.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }]
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
