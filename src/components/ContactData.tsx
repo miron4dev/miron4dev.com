@@ -14,25 +14,25 @@ class ContactData extends React.Component {
             <li className="col" style={{ flex: 0 }}>
               <a target="_blank" href="https://github.com/miron4dev"
                  rel="noreferrer">
-                <img src={githubLogo} alt="Github" height="16"/>
+                <img src={githubLogo} alt="Github" height="24"/>
               </a>
             </li>
             <li className="col" style={{ flex: 0 }}>
               <a target="_blank" href="https://linkedin.com/in/miron4dev"
                  rel="noreferrer">
-                <img src={linkedinLogo} alt="LinkedIn" height="16"/>
+                <img src={linkedinLogo} alt="LinkedIn" height="24"/>
               </a>
             </li>
             <li className="col" style={{ flex: 0 }}>
               <a target="_blank" href="https://facebook.com/miron4dev"
                  rel="noreferrer">
-                <img src={facebookLogo} alt="Facebook" height="16"/>
+                <img src={facebookLogo} alt="Facebook" height="24"/>
               </a>
             </li>
             <li className="col" style={{ flex: 0 }}>
               <a target="_blank" href="https://t.me/miron4dev"
                  rel="noreferrer">
-                <img src={telegramLogo} alt="Telegram" height="16"/>
+                <img src={telegramLogo} alt="Telegram" height="24"/>
               </a>
             </li>
           </ul>

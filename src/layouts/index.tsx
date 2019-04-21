@@ -28,7 +28,7 @@ class MainLayout extends React.Component {
             },
             {
               name: "keywords",
-              content: "Evgeny, Mironenko, Evgeny Mironenko, Software Engineer" +
+              content: "Evgeny, Mironenko, Evgeny Mironenko, Software Engineer, " +
                 "Software Developer, Java, Kotlin, Typescript, React"
             }
           ]}>
