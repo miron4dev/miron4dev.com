@@ -27,7 +27,8 @@ class IndexPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | Software Engineer"
-                  metaDescription="Evgeny Mironenko Senior Software Engineer Java Kotlin Typescript React Developer"
+                  metaDescription="Evgeny Mironenko Senior Software Engineer & Proud Geek.
+                  Currently based in Tallinn, Estonia."
                   contextPath="/">
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
           <Navbar/>

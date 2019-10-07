@@ -39,8 +39,6 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
             }
           ]}>
           <html lang="en"/>
-
-          <link rel="canonical" href={"https://www.miron4dev.com" + this.props.contextPath}/>
         </Helmet>
         {this.props.children}
       </div>

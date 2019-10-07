@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Evgeny Mironenko Software Engineer`,
-    siteUrl: `https://www.miron4dev.com`
+    siteUrl: `https://miron4dev.com`
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -22,9 +22,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.miron4dev.com",
-        sitemap: "https://www.miron4dev.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }]
+        host: "https://miron4dev.com",
+        sitemap: "https://miron4dev.com/sitemap.xml",
+        policy: [{ userAgent: "*" }]
       }
     },
     {

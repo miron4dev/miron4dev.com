@@ -8,7 +8,7 @@ class WorkPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | Working Experience"
-                  metaDescription="Work Experience Evgeny Senior Mironenko Software Engineer Java Kotlin React"
+                  metaDescription="Working Experience of Senior Software Engineer Evgeny Mironenko"
                   contextPath="/work">
         <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
           <Navbar/>
