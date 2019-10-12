@@ -47,7 +47,7 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
             },
             {
               property: "og:description",
-              content: "Personal website by Evgeny Mironenko Senior Software Engineer & Proud Geek. " +
+              content: "Personal website by Evgeny Mironenko Senior Software Engineer. " +
                 "Java, Kotlin, Spring, React, TypeScript. Currently based in Tallinn, Estonia."
             },
             {
@@ -67,10 +67,6 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
               content: "https://miron4dev.com/me.jpg"
             },
             {
-              property: "og:image:type",
-              content: "image/jpeg"
-            },
-            {
               property: "twitter:card",
               content: "summary"
             },
@@ -80,7 +76,7 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
             },
             {
               property: "twitter:description",
-              content: "Personal website by Evgeny Mironenko Senior Software Engineer & Proud Geek. " +
+              content: "Personal website by Evgeny Mironenko Senior Software Engineer. " +
                 "Java, Kotlin, Spring, React, TypeScript. Currently based in Tallinn, Estonia."
             },
             {
@@ -92,7 +88,7 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
               content: "@miron4dev"
             },
             {
-              property: "og:image",
+              property: "twitter:image",
               content: "https://miron4dev.com/me.jpg"
             }
           ]}>
