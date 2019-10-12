@@ -36,6 +36,64 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
               name: "keywords",
               content: "Evgeny, Mironenko, Evgeny Mironenko, Software Engineer, " +
                 "Software Developer, Java, Kotlin, Typescript, React"
+            },
+            {
+              property: "og:type",
+              content: "website"
+            },
+            {
+              property: "og:title",
+              content: "Evgeny Mironenko | Software Engineer"
+            },
+            {
+              property: "og:description",
+              content: "Personal website by Evgeny Mironenko Senior Software Engineer & Proud Geek. " +
+                "Java, Kotlin, Spring, React, TypeScript. Currently based in Tallinn, Estonia."
+            },
+            {
+              property: "og:url",
+              content: "https://miron4dev.com/"
+            },
+            {
+              property: "og:url",
+              content: "https://miron4dev.com/about"
+            },
+            {
+              property: "og:url",
+              content: "https://miron4dev.com/work"
+            },
+            {
+              property: "og:image",
+              content: "https://miron4dev.com/me.jpg"
+            },
+            {
+              property: "og:image:type",
+              content: "image/jpeg"
+            },
+            {
+              property: "twitter:card",
+              content: "summary"
+            },
+            {
+              property: "twitter:title",
+              content: "Evgeny Mironenko | Software Engineer"
+            },
+            {
+              property: "twitter:description",
+              content: "Personal website by Evgeny Mironenko Senior Software Engineer & Proud Geek. " +
+                "Java, Kotlin, Spring, React, TypeScript. Currently based in Tallinn, Estonia."
+            },
+            {
+              property: "twitter:url",
+              content: "https://miron4dev.com/"
+            },
+            {
+              property: "twitter:site",
+              content: "@miron4dev"
+            },
+            {
+              property: "og:image",
+              content: "https://miron4dev.com/me.jpg"
             }
           ]}>
           <html lang="en"/>
