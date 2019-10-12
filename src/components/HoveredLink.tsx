@@ -7,7 +7,7 @@ class HoveredLink extends React.Component {
       <div className="header">
         <span>
           <a href="/" className="nav-link logo" title="Main page">
-            E<span>vgeny </span>M<span>ironenko</span>
+            M<span>ironenko </span>E<span>vgeny</span>
           </a>
         </span>
       </div>

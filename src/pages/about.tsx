@@ -10,7 +10,7 @@ class AboutPage extends React.Component {
     return (
       <MainLayout title="Evgeny Mironenko | About"
                   metaDescription="About Senior Software Engineer Evgeny Mironenko -
-                   Java / Kotlin / Spring Boot / React / TypeScript developer with more than 6 years of experience."
+                  Java, Kotlin, Spring, React, TypeScript developer with more than 6 years of experience."
                   contextPath="/about">
         <div className="d-flex flex-column main-layout">
           <Navbar/>
