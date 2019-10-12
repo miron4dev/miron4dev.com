@@ -12,13 +12,13 @@ class AboutPage extends React.Component {
                   metaDescription="About Senior Software Engineer Evgeny Mironenko -
                    Java / Kotlin / Spring Boot / React / TypeScript developer with more than 6 years of experience."
                   contextPath="/about">
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div className="d-flex flex-column main-layout">
           <Navbar/>
-          <div className="container-fluid" style={{ flex: 1 }}>
+          <div className="container-fluid container">
             <main>
               <section className="py-3 py-md-4">
                 <div className="d-flex align-items-end typist">
-                  <h2><Typist messages={["About me"]}/></h2>
+                  <h1><Typist messages={["About me"]}/></h1>
                 </div>
                 <img src={avatarImg} width={128} height={128} alt="Me" className="avatar"/>
               </section>
@@ -40,12 +40,13 @@ class AboutPage extends React.Component {
                   </p>
                 </div>
               </section>
+
               <div className="separator mb-3"/>
 
-              <h3 style={{ color: "#C5A483" }}>Skills</h3>
-              <ul style={{ listStyleType: "none" }}>
+              <h2>Skills</h2>
+              <ul className="skill-list">
                 <li>
-                  Java, Kotlin, Ruby, REST, SOAP, XML, SQL
+                  Java, Kotlin, Ruby, Python, REST, SOAP, XML, SQL
                 </li>
                 <li>
                   Servlets, Spring Core, Spring Boot, Spring Security, Spring Data, Spring AOP, JPA, Apache CXF, Ruby on

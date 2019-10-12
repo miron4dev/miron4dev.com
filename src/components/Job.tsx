@@ -74,9 +74,9 @@ class Job extends React.Component<JobProps, any> {
         <div className="col py-2">
           <div className={this.getBorderClass()}>
             <div className="card-body">
-              <div className={this.getCompanyClass()} style={{ color: "#9cb456" }}>{this.props.company}</div>
-              <div className={this.getDateClass()} style={{ color: "#9cb456" }}>{this.props.date}</div>
-              <h4 className={this.getPositionClass()}>{this.props.position}</h4>
+              <div className={this.getCompanyClass() + " company-name"}>{this.props.company}</div>
+              <div className={this.getDateClass() + " company-name"}>{this.props.date}</div>
+              <h2 className={this.getPositionClass()}>{this.props.position}</h2>
 
               {this.props.children}
             </div>

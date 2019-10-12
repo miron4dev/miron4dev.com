@@ -7,7 +7,7 @@ header {
   display: inline-flex;
 }
 
-.header > h1 > .logo {
+.header > span > .logo {
   text-transform: uppercase;
   letter-spacing: .06em;
   -webkit-transform: translateZ(0);
@@ -22,42 +22,42 @@ header {
 }
 
 @media (min-width: 768px) {
-  .header > h1 > .logo {
+  .header > span > .logo {
     font-size: 28px
   }
 }
 
-.header > h1 > .logo:hover {
+.header > span > .logo:hover {
   background: none
 }
 
 @media (hover: hover) {
-  .header > h1 > .logo {
+  .header > span > .logo {
     transition: all 175ms cubic-bezier(.4, 0, .2, 1);
     padding: 0;
     letter-spacing: .025em;
   }
 
-  .header > h1 > .logo > span {
+  .header > span > .logo > span {
     transition: all 175ms cubic-bezier(.4, 0, .2, 1), opacity 125ms cubic-bezier(.4, 0, .2, 1);
     font-size: 0;
     opacity: 0;
   }
 
-  .header > h1 > .logo:hover > span {
+  .header > span > .logo:hover > span {
     opacity: 1;
     font-size: 1em
   }
 }
 
 
-.header > h1 > .logo > span {
+.header > span > .logo > span {
   transition: all 175ms cubic-bezier(.4, 0, .2, 1), opacity 125ms cubic-bezier(.4, 0, .2, 1);
   font-size: 0;
   opacity: 0;
 }
 
-.header > h1 > .logo > span:hover:after {
+.header > span > .logo > span:hover:after {
   font-size: 24px;
   opacity: 100%;
 }

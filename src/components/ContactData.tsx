@@ -11,34 +11,36 @@ class ContactData extends React.Component {
       <div className="d-block">
         <div className="contact-data">
           <ul className="row p-0 list-unstyled">
-            <li className="col" style={{ flex: 0 }}>
+            <li className="col contact">
               <a target="_blank" href="https://github.com/miron4dev"
-                 rel="noreferrer">
+                 rel="noreferrer" title="Open Github profile">
                 <img src={githubLogo} alt="Github" height="24"/>
               </a>
             </li>
-            <li className="col" style={{ flex: 0 }}>
+            <li className="col contact">
               <a target="_blank" href="https://linkedin.com/in/miron4dev"
-                 rel="noreferrer">
+                 rel="noreferrer" title="Open LinkedIn profile">
                 <img src={linkedinLogo} alt="LinkedIn" height="24"/>
               </a>
             </li>
-            <li className="col" style={{ flex: 0 }}>
+            <li className="col contact">
               <a target="_blank" href="https://facebook.com/miron4dev"
-                 rel="noreferrer">
+                 rel="noreferrer" title="Open Facebook profile">
                 <img src={facebookLogo} alt="Facebook" height="24"/>
               </a>
             </li>
-            <li className="col" style={{ flex: 0 }}>
+            <li className="col contact">
               <a target="_blank" href="https://t.me/miron4dev"
-                 rel="noreferrer">
+                 rel="noreferrer" title="Open Telegram profile">
                 <img src={telegramLogo} alt="Telegram" height="24"/>
               </a>
             </li>
           </ul>
         </div>
         <p>
-          <a href="mailto:miron4dev@gmail.com" className="mb-0">miron4dev@gmail.com</a>
+          <a href="mailto:miron4dev@gmail.com" title="Send an e-mail" className="mb-0">
+            miron4dev@gmail.com
+          </a>
         </p>
       </div>
     );

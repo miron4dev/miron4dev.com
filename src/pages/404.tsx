@@ -13,7 +13,7 @@ class NotFoundPage extends React.Component {
             <TreeView>
               404 Not found
             </TreeView>
-            <a href="/">Back</a>
+            <a href="/" title="Go back">Back</a>
           </h1>
         </div>
       </MainLayout>

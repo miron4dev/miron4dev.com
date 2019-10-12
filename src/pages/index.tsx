@@ -12,9 +12,6 @@ import Typist from "../components/Typist";
 import Navbar from "../components/Navbar";
 import MainLayout from "../layouts";
 
-const messages = ["planning", "designing", "programming", "thinking", "optimizing", "refactoring",
-  "simplifying", "debugging", "configuring", "searching", "tweaking", "Evgeny, nice to meet you!"];
-
 const skills = [
   new Skill("Java", javaLogo),
   new Skill("Kotlin", kotlinLogo),
@@ -30,24 +27,20 @@ class IndexPage extends React.Component {
                   metaDescription="Evgeny Mironenko Senior Software Engineer & Proud Geek.
                   Currently based in Tallinn, Estonia."
                   contextPath="/">
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div className="d-flex flex-column main-layout">
           <Navbar/>
-          <div className="container-fluid" style={{ flex: 1 }}>
+          <div className="container-fluid container">
             <main>
-              <section className="py-3 py-md-4">
-                <div className="d-flex align-items-end typist">
-                  <h2><Typist messages={messages}/></h2>
-                </div>
-              </section>
               <section className="mb-3">
                 <div>
+                  <h1><Typist messages={["Evgeny Mironenko"]}/></h1>
                   <p className="lead">Software Engineer & Proud Geek</p>
                   <p>Currently based in Tallinn, Estonia</p>
                 </div>
               </section>
               <ContactData/>
               <div className="separator my-5"/>
-              <h3>Tech I like to work with</h3>
+              <h2>Tech I like to work with</h2>
               <Badges skills={skills}/>
             </main>
           </div>

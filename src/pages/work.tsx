@@ -10,13 +10,13 @@ class WorkPage extends React.Component {
       <MainLayout title="Evgeny Mironenko | Working Experience"
                   metaDescription="Working Experience of Senior Software Engineer Evgeny Mironenko"
                   contextPath="/work">
-        <div className="d-flex flex-column" style={{ minHeight: "100vh" }}>
+        <div className="d-flex flex-column main-layout">
           <Navbar/>
-          <div className="container-fluid" style={{ flex: 1 }}>
+          <div className="container-fluid container">
             <main>
               <section className="py-3 py-md-4">
                 <div className="d-flex align-items-end typist">
-                  <h2><Typist messages={["My experience"]}/></h2>
+                  <h1><Typist messages={["My experience"]}/></h1>
                 </div>
               </section>
 
@@ -30,7 +30,7 @@ class WorkPage extends React.Component {
 
                 <Job company="Omniva" position="FullStack Engineer" date="May 2018 - February 2019"
                      passed={true}>
-                  <ul className="card-text text-muted" style={{ textAlign: "left" }}>
+                  <ul className="card-text text-muted company-achievement-list">
                     <li>
                       developing business logic for the largest sorting line in the Baltic countries
                     </li>
@@ -45,7 +45,7 @@ class WorkPage extends React.Component {
 
                 <Job company="T-Systems RUS" position="Senior Software Engineer" date="Feb 2017 - April 2018"
                      passed={true}>
-                  <ul className="card-text text-muted" style={{ textAlign: "left" }}>
+                  <ul className="card-text text-muted company-achievement-list">
                     <li>
                       technical project leading an internal project for the largest telecommunications provider in
                       Europe
