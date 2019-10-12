@@ -55,14 +55,6 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
               content: "https://miron4dev.com/"
             },
             {
-              property: "og:url",
-              content: "https://miron4dev.com/about"
-            },
-            {
-              property: "og:url",
-              content: "https://miron4dev.com/work"
-            },
-            {
               property: "og:image",
               content: "https://miron4dev.com/me.jpg"
             },
