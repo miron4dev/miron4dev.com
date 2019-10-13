@@ -11,7 +11,7 @@ class Badges extends React.Component<BadgesProps, any> {
       <li className="mr-4" key={index}>
         <h3 className="d-flex flex-column align-items-center">
           <img className="mb-2" src={skill.icon} width="32" height="32" alt={skill.label}/>
-          <p>{skill.label}</p>
+          {skill.label}
         </h3>
       </li>
     );
