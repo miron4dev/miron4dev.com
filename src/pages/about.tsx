@@ -8,7 +8,7 @@ import avatarImg from "../assets/img/avatar.jpg";
 class AboutPage extends React.Component {
   render() {
     return (
-      <MainLayout title="Evgeny Mironenko | About"
+      <MainLayout title="Evgeny Mironenko | About me"
                   metaDescription="About Senior Software Engineer Evgeny Mironenko -
                   Java, Kotlin, Spring, React, TypeScript developer with more than 6 years of experience."
                   contextPath="/about">
