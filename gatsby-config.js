@@ -8,6 +8,21 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Fira Mono`,
+            variants: [`400`, `500`]
+          },
+          {
+            family: `Fira Sans`,
+            variants: [`300`, `400`, `700`]
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `miron4dev`,
