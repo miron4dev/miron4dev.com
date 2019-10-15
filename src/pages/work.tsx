@@ -9,7 +9,7 @@ class WorkPage extends React.Component {
     return (
       <MainLayout title="Evgeny Mironenko | Working Experience"
                   metaDescription="Working Experience of Senior Software Engineer Evgeny Mironenko"
-                  contextPath="/work">
+                  keywords="working experience, timeline, cv, jobs description">
         <div className="d-flex flex-column main-layout">
           <Navbar/>
           <div className="container-fluid container">

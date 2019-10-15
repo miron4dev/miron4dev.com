@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
       <MainLayout title="Evgeny Mironenko | About me"
                   metaDescription="About Senior Software Engineer Evgeny Mironenko -
                   Java, Kotlin, Spring, React, TypeScript developer with more than 6 years of experience."
-                  contextPath="/about">
+                  keywords="about Evgeny Mironenko, description, profile, skills">
         <div className="d-flex flex-column main-layout">
           <Navbar/>
           <div className="container-fluid container">

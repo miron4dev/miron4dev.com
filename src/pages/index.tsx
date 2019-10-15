@@ -26,7 +26,9 @@ class IndexPage extends React.Component {
       <MainLayout title="Evgeny Mironenko | Software Engineer"
                   metaDescription="Personal website by Evgeny Mironenko Senior Software Engineer.
                   Java, Kotlin, Spring, React, TypeScript. Currently based in Tallinn, Estonia."
-                  contextPath="/">
+                  keywords="Evgeny, Mironenko, Evgeny Mironenko, Software Engineer,
+                  Software Developer, Java, Kotlin, Typescript, React"
+                  contextRoot={true}>
         <div className="d-flex flex-column main-layout">
           <Navbar/>
           <div className="container-fluid container">
