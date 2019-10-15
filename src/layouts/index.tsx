@@ -127,6 +127,7 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
       <div>
         <Helmet title={this.props.title} meta={this.meta}>
           <html lang="en"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com"/>
 
           {this.props.contextRoot ? (
             <script type="application/ld+json">
