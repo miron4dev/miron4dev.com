@@ -8,7 +8,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "postinstall": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {

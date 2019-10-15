@@ -42,12 +42,12 @@ class Navbar extends React.Component<{}, NavbarState> {
             </ul>
             <ul className="nav navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/about" title="About Evgeny">
+                <a className="nav-link" href="/about/" title="About Evgeny">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/work" title="Working experience">
+                <a className="nav-link" href="/work/" title="Working experience">
                   Work
                 </a>
               </li>
