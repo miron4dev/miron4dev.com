@@ -34,7 +34,6 @@ class Typist extends React.Component<TypistProps, any> {
   render() {
     return (
       <React.Fragment>
-        <span className="invisible">{this.props.messages.join(", ")}</span>
         <TreeView>
           {this.props.messages.map((msg, index, arr) => this.mapMessage(msg, index, arr))}
         </TreeView>
