@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Evgeny Mironenko Software Engineer`,
+    title: `Evgeny Mironenko | Software Engineer`,
     siteUrl: `https://miron4dev.com`
   },
   plugins: [

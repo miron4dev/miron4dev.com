@@ -6,7 +6,7 @@ import "../assets/styles/main.scss";
 
 interface MainLayoutProps {
   title: string;
-  metaDescription: string;
+  description: string;
   keywords: string;
   contextRoot: boolean;
 }
@@ -85,7 +85,7 @@ const schemaLd = {
   ]
 };
 
-class MainLayout extends React.Component<MainLayoutProps, any> {
+class MainLayout extends React.Component<MainLayoutProps> {
 
   static defaultProps = {
     contextRoot: false
@@ -109,7 +109,7 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
       },
       {
         name: "description",
-        content: this.props.metaDescription
+        content: this.props.description
       },
       {
         name: "keywords",
@@ -127,7 +127,6 @@ class MainLayout extends React.Component<MainLayoutProps, any> {
       <div>
         <Helmet title={this.props.title} meta={this.meta}>
           <html lang="en"/>
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
 
           {this.props.contextRoot ? (
             <script type="application/ld+json">

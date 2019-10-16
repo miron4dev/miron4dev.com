@@ -8,7 +8,7 @@ class WorkPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | Working Experience"
-                  metaDescription="Working Experience of Senior Software Engineer Evgeny Mironenko"
+                  description="Working Experience of Senior Software Engineer Evgeny Mironenko"
                   keywords="working experience, timeline, cv, jobs description">
         <div className="d-flex flex-column main-layout">
           <Navbar/>

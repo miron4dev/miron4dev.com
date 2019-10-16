@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | Software Engineer"
-                  metaDescription="Personal website by Evgeny Mironenko Senior Software Engineer.
+                  description="Personal website by Evgeny Mironenko Senior Software Engineer.
                   Java, Kotlin, Spring, React, TypeScript. Currently based in Tallinn, Estonia."
                   keywords="Evgeny, Mironenko, Evgeny Mironenko, Software Engineer,
                   Software Developer, Java, Kotlin, Typescript, React"

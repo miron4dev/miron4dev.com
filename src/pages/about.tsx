@@ -9,7 +9,7 @@ class AboutPage extends React.Component {
   render() {
     return (
       <MainLayout title="Evgeny Mironenko | About me"
-                  metaDescription="About Senior Software Engineer Evgeny Mironenko -
+                  description="About Senior Software Engineer Evgeny Mironenko -
                   Java, Kotlin, Spring, React, TypeScript developer with more than 6 years of experience."
                   keywords="about Evgeny Mironenko, description, profile, skills">
         <div className="d-flex flex-column main-layout">

@@ -6,7 +6,7 @@ import MainLayout from "../layouts";
 class NotFoundPage extends React.Component {
   render() {
     return (
-      <MainLayout title="Page Not Found" metaDescription="Page Not Found" keywords="Page Not found">
+      <MainLayout title="Page Not Found" description="Page Not Found" keywords="Page Not found">
         <div className="not-found-page">
           <h1 className="align-self-center">
             <TreeView>
