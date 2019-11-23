@@ -21,7 +21,15 @@ class WorkPage extends React.Component {
               </section>
 
               <div className="container py-2">
-                <Job company="GrabCAD" position="Senior Software Engineer" date="March 2019 - Ongoing">
+                <Job company="CyberCube" position="Senior Software Engineer" date="November 2019 - Ongoing">
+                  <p className="card-text">
+                    designing and building high performance, robust, scalable microservices, data processing
+                    applications, and RESTful web services specifically for the insurance industry
+                  </p>
+                </Job>
+
+                <Job company="GrabCAD" position="Senior Software Engineer" date="March 2019 - October 2019"
+                     passed={true}>
                   <p className="card-text">
                     designing, developing and supporting innovative solutions for 3D printers and also for one of
                     the largest online community of professional engineers, designers and manufacturers.
